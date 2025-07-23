@@ -13,7 +13,7 @@ firebase_admin.initialize_app(cred)
 db = firestore.client()
 
 # Excel file ka path
-EXCEL_FILE_PATH = r"C:\Projects\Student Varification\students.xlsx"
+EXCEL_FILE_PATH = 'students.xlsx'
 
 # Excel data read karo
 df = pd.read_excel(EXCEL_FILE_PATH, sheet_name='Sheet1')
