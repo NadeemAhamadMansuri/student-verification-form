@@ -2,6 +2,7 @@ from flask import Flask, render_template, request
 import firebase_admin
 import datetime  
 from firebase_admin import credentials, firestore
+import os
 import pandas as pd
 
 app = Flask(__name__)
